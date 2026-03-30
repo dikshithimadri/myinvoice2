@@ -1,0 +1,7 @@
+[build]
+  base = "invoice-builder"
+  command = "npm run build"
+  publish = "invoice-builder/build"
+
+[build.environment]
+  NODE_VERSION = "18"
